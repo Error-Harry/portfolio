@@ -53,7 +53,7 @@ const ExperienceSection = () => {
           {experiences.map((exp, index) => (
             <Card key={index} className="relative overflow-hidden border-0 shadow-xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm hover:shadow-2xl transition-all duration-300 group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              
+
               <CardHeader className="relative z-10">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
@@ -69,7 +69,7 @@ const ExperienceSection = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="flex flex-col items-start md:items-end gap-2">
                     <div className="flex items-center gap-1 text-slate-600 dark:text-slate-400">
                       <Calendar className="h-4 w-4" />
@@ -81,7 +81,7 @@ const ExperienceSection = () => {
                   </div>
                 </div>
               </CardHeader>
-              
+
               <CardContent className="relative z-10">
                 <div className="space-y-4">
                   <ul className="space-y-3">
@@ -92,7 +92,7 @@ const ExperienceSection = () => {
                       </li>
                     ))}
                   </ul>
-                  
+
                   <div className="pt-4 border-t border-slate-200 dark:border-slate-700">
                     <p className="text-sm font-semibold text-slate-600 dark:text-slate-400 mb-3">Technologies Used:</p>
                     <div className="flex flex-wrap gap-2">

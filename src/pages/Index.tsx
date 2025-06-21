@@ -16,7 +16,7 @@ const Index = () => {
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const shouldBeDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
-    
+
     setIsDark(shouldBeDark);
     document.documentElement.classList.toggle('dark', shouldBeDark);
   }, []);
@@ -67,23 +67,23 @@ const Index = () => {
         <section id="home">
           <HeroSection />
         </section>
-        
+
         <section id="experience">
           <ExperienceSection />
         </section>
-        
+
         <section id="projects">
           <ProjectsSection />
         </section>
-        
+
         <section id="skills">
           <SkillsSection />
         </section>
-        
+
         <section id="education">
           <EducationSection />
         </section>
-        
+
         <section id="contact">
           <ContactSection />
         </section>
